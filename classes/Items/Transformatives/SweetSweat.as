@@ -47,7 +47,7 @@ package classes.Items.Transformatives {
 				output("You take the ointment and slather it all over your");
 				if (target.tone > 75) output(" musclebound");
 				output(" body, getting it in every nook and cranny, fantasizing about the musk you'll be emitting. Your hands slide into your [pc.ass], spreading your cheeks apart as you slather some of the ointment onto your [pc.asshole] slipping a finger into it, just to make sure you apply it where it's needed. After finishing up down there, you scoop out another handful of the cream and give your [pc.fullChest] your full attention.");
-				output("\n\nAs you apply the thick creamy ointment on your chest you can't help but rub your nipples and feel up your [pc.chest] The more you slather yourself the more aroused you become, if this cream doesn't work at least it's a good excuse to masturbate. Your eyes roll back a bit and involuntarily bite your bottom lip as you apply the cream to your crotch, the cold thick cream almost melting onto your [pc.crotch], feeling as if you were");
+				output("\n\nAs you apply the thick creamy ointment on your chest, you can't help but rub your nipples and feel up your [pc.chest]. The more you slather yourself the more aroused you become. If this cream doesn't work at least it's a good excuse to masturbate. Your eyes roll back a bit, and you involuntarily bite your bottom lip as you apply the cream to your crotch, the cold, thick cream almost melting onto your [pc.crotch], feeling as if you were");
 				if(target.hasCock()) output(" balls deep in a cunt");
 				if(!target.hasCock()) {
 					output(" given a massage by a very busty");

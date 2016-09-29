@@ -103,23 +103,25 @@ public function buskyStrapsShopFunc():Boolean {
 			if(pc.isSexless()) output(" face, flushed with arousal");
 			else  output(" [pc.crotch] dripping fluids, which are clearly visible");
 			
-			if (!pc.isNude()) output(" through your clothes");
+			if (!pc.isCrotchExposed()) output(" through your clothes");
 			output(", if anybody were to give you a good look over.");
 			
 			output("\n\nThe man at the counter is an Adonis, no muscle on his body undefined, with pectorals the size of throw pillows. The bull's light skin somewhat contrasts his brown hair, within which a pair of fully grown horns sprout, sticking up on either side of his head. Short, dark stubble is visible where a beard could be. Its' hard to miss the outline of his pectorals and abdominals showing through his strained undershirt.");
 			output("\n\n<i>“So uh… you gonna buy something or just stare?”</i>");
 			output("\n\nThe bull's voice snaps you out of your trance. You stammer for a bit, trying to explain yourself but the bull just laughs it off. He comes out from behind the counter and gives you a friendly slap on the back.");
-			output("\n\n<i>“Name’s Busky. And don’t worry 'bout staring, ain’t no big deal. I'm no stranger to being gawked at, if you want a good view, go on ahead,”</i> the giant bull steps back, giving you a full view of his well defined body.");
-			output("\n\nHe stands there flexing, trying to show off, however you can’t help but notice he isn’t wearing anything below the belt. Busky slowly comes to realize that he is unintentionally showing off his semi-erect hefty horsecock, resting over his quartet of grapefruit sized balls.");
+			output("\n\n<i>“Name’s Busky. And don’t worry 'bout staring; ain’t no big deal. I'm no stranger to being gawked at, if you want a good view, go on ahead,”</i> the giant bull steps back, giving you a full view of his well defined body.");
+			output("\n\nHe stands there flexing, trying to show off, however you can’t help but notice he isn’t wearing anything below the belt. Busky slowly comes to realize that he is unintentionally showing off his semi-erect and quite hefty horsecock, resting over his quartet of grapefruit sized balls.");
 			output("\n\n<i>“Oh crap,”</i> Busky rushes back behind the counter and puts on a jockstrap. <i>“Was rubbing one out before you came in, heh. Anyway, welcome to Straps.”</i>");
 			
 			flags["MET_BUSKY"] = true;
-			
+			processTime(5);
+		}	
 		//Follow-up visits	
-		} else {
+		else {
 			output("You enter the small shop tightly snugged between the Barn and Ten Ton Gym. After you readjust to the thick scent you look around. Aside from the occasional bull rummaging through the clothes, the shop is mostly filled with cows; possibly purchasing products for their bulls. You turn to look at the front of the store, greeted by the warm smile of the musclebound bull behind the counter.");
 			output("\n\n<i>“Looking to buy somethin'? Other than me,”</i> the bull jokes. <i>“Can't buy what's already free.”</i>");
 			output("\n\nA monitor behind the counter Busky works at reads <i>“Despite Straps's recent debut, it is already a major distributor of the freshest male enhancing products and male clothing. We are fully stocked in male underwear and tops, and have received a shipment of newly released mods. While our stock may be small now, there are more mods to come, so check back while we restock and stock your jocks!”</i>");
+			processTime(3);
 		}
 		
 		clearMenu();
@@ -163,9 +165,9 @@ public function buskyAppearance():void {
 	clearOutput();
 	showBusky();
 	
-	output("The hunk standing before you can be summarized with the simple title of <i>“The Beefcake Next Door”</i>, a mixture of playful happy-go-lucky cheer combined with slabs of muscle adorned on his body. His pair of horns is fully grown, possibly around eight inches long, the ivory tusks sticking up on either side of his short, messy brown hair. His hair brings out his sea blue eyes. A light stubble adorns his well defined jawline. He looks as if he hasn't a care in the world, always carrying a relaxed, happy-to-be-there smile.");
+	output("The hunk standing before you can be summarized with the simple title of <i>“The Beefcake Next Door”</i>, a mixture of playful happy-go-lucky cheer combined with slabs of muscle adorned on his body. His pair of horns is fully grown, possibly around eight inches long, the ivory sticking up on either side of his short, messy brown hair. His hair brings out his sea blue eyes. A light stubble adorns his well defined jawline. He looks as if he hasn't a care in the world, always carrying a relaxed, happy-to-be-there smile.");
 	output("\n\nHis torso is hugged tight by the undershirt he’s wearing. The outline of his pectorals and abs are clearly visible through the white cloth, and you can see hints of chest hair peaking out from under his shirt. The male bull seems to work out constantly, as his body and arms are perfectly defined. There is a decent amount of hair on his arms as well. Not enough to pass for fur, but more akin to an unshaven lumberjack.");
-	output("\n\nOn Busky's lower body are two legs that are just as hairy and muscular, ending in regular old human feet. And between those legs, constrained in a brown leather jockstrap, are a quartet of grapefruit sized balls supporting a hefty 20 inch horsecock that is spotted brown at the base, and pink up towards the flare.");
+	output("\n\nOn Busky's lower body are two legs that are just as hairy and muscular, ending in regular old human feet. And between those legs, constrained in a brown leather jockstrap, are a quartet of grapefruit sized balls supporting a hefty 20 inch horsecock that is spotted brown at the base and pink up towards the flare.");
 	output("\n\nBusky has one tight ass, placed exactly where it belongs. Resting above his ass is a standard bovine tail, with a tuft of brown fur at the end.");
 
 	addDisabledButton(0, "Appearance");
@@ -210,7 +212,7 @@ public function buskyTalksAboutHimself():void {
 	clearOutput();
 	showBusky();
 	
-	output("<i>“Name's Buskurt Agnos, people just call me Busky though, and honestly I'm just your run of the mill New Texan Bull.”</i> Busky says casually. <i>“Not much different than Ol' Big T. himself.”</i>");
+	output("<i>“Name's Buskurt Agnos. People just call me Busky though, and honestly I'm just your run of the mill New Texan Bull.”</i> Busky says casually. <i>“Not much different than Ol' Big T. himself.”</i>");
 	output("\n\n<i>“So you spend every waking moment ogling at the biggest pair of breasts in the room,”</i> you joke. Busky himself chuckles for a second before responding.");
 	output("\n\n<i>“Not exactly a woman person myself, if you know what I mean. Instead of Aphrodite, I'd rather get with Priapus, or as he's known around here, 'Brynn', heh. Here's a tip, with him, there's no such thing as 'just the tip', made that mistake myself and by the end of it, I couldn't sit down for a month.”</i>");
 	output("\n\nYou chuckle, amused at Busky's honesty. It seems like everyone really has nothing to hide in New Texas.");
@@ -556,7 +558,7 @@ public function buskySexGetBlown():void {
 	}
 	
 	//balls
-	if (pc.balls >= 1) {
+	if (pc.balls >= 2) {
 		output("\n\nBusky takes in one of your testicles into his mouth for a brief moment, before slowly pulling away, his lips sealed against your nuts. Eventually a wet popping sound emanates from Busky's mouth as your balls swing back down to their original position. The muscleslut of a bull continues to worship your [pc.balls] as such, rotating between kissing, licking, sucking, pulling, and popping. During his ball worship, your [pc.cock " + cockIndex + "] is pressed vertically, the pulsing underside resting between his eyes.");
 		output("\n\nEventually he releases your balls and starts working his way back up your cock, his tongue wrapping around your base as he works his way up your cock, lips sealing around your [pc.cockhead " + cockIndex + "]. Every drop of pre that spills from it is instantly swallowed by Busky, as he slowly takes your length deeper in, inch by inch until he bottoms out. He stops briefly to catch his breath, pulling his face off of your [pc.cockShort].");
 		output("\n\nHowever, he doesn't stop caring for your balls, as he fondles them profusely, giving them so much attention, that you'd think they were celebrity autographed.");

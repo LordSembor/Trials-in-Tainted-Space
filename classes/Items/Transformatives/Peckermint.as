@@ -53,7 +53,7 @@ package classes.Items.Transformatives {
 				
 				output("You slowly peel the thin plastic off of the candy cane colored cock. The peppermint pecker rests in your hand, a good 12 inches. You slowly lift it to your lips, giving the head a nice long lick. A tickle of peppermint runs down your tongue, you grin to yourself before plunging the whole confectionary cock into your mouth.");
 				output("\n\nEventually your saliva breaks through the thin candy of the head, and a gooey, sticky, deep red liquid pools into your mouth. The sweet thick peppermint liquid runs down your throat as you slurp and suck on the terran shaped candy cock. Eventually the last drops of the peppermint liquid stop flowing, you must have drank all of it already.");
-				output("\n\nSoon the once 12 inch candy dwindles to 6, and eventually a one inch stub with a pair of balls connected to it. You pop the rest of the candy into your mouth, sucking on the whole thing as you ponder other thoughts. But, to your surprise, the balls collapse like egg shells once you prod them with your tongue. As it turns out, they must have been filled with the same red fluid as the rest of the cock. You chuckle lightly, you sucked the candyman's balls dry. Now that's an odd thought.");
+				output("\n\nSoon the once 12 inch candy dwindles to 6, and eventually a one inch stub with a pair of balls connected to it. You pop the rest of the candy into your mouth, sucking on the whole thing as you ponder other thoughts. But, to your surprise, the balls collapse like egg shells once you prod them with your tongue. As it turns out, they must have been filled with the same red fluid as the rest of the cock. You chuckle lightly; you sucked the candyman's balls dry. Now that's an odd thought.");
 				
 				//check if target has cock and not yet peppermint cum
 				if (target.hasCock() && target.cumType != GLOBAL.FLUID_TYPE_PEPPERMINT) {
@@ -61,8 +61,8 @@ package classes.Items.Transformatives {
 					if (target.cumTypeUnlocked(GLOBAL.FLUID_TYPE_PEPPERMINT)) {
 						//set cum to peppermint
 						target.cumType = GLOBAL.FLUID_TYPE_PEPPERMINT;
-						output("\n\nNow that you've consumed the cock, you await a sign that something has occurred. But for a while, nothing happened. Needing some sort of confirmation, you take matters into your own hands.");
-						output("\n\nYou now grip [pc.biggestCock], slowly pumping at it, having it rise to full mast as you await the telltale sign that the mod worked. You begin masturbating, not out of pleasure, but out of obligation to make sure your money was not wasted on a simple candy. Soon, your member is throbbing and pulsing, dribbling [pc.cumColor] pre.");
+						output("\n\nNow that you've consumed the cock, you await a sign that something has occurred. But for a while, nothing happens. Needing some sort of confirmation, you take matters into your own hands.");
+						output("\n\nYou now grip your [pc.biggestCock], slowly pumping at it, having it rise to full mast as you await the telltale sign that the mod worked. You begin masturbating, not out of pleasure, but out of obligation to make sure your money was not wasted on a simple candy. Soon, your member is throbbing and pulsing, dribbling [pc.cumColor] pre.");
 						output("\n\nThe telltale feeling of pressure builds up in your groin, your cock dribbling more and more pre. But something catches your nose, your pre cum is emitting a minty scent. Within a few more moments, you blow your load, an aroma of mint filling the air around you.");
 						output("\n\nSlowly your cock stops spraying your load, and you sample the seed still on your hand. It tastes just like the goo from the Peckermint! You gladly clean up, before heading out on your way, your balls churning with yuletide spirit.");
 					} else output("\n\n" + target.cumTypeLockedMessage());
