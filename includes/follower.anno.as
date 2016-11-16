@@ -3044,7 +3044,7 @@ public function annoUvetoHuskarFoursomeSure():void
 	
 	output("\n\nWait, is it seriously...");
 	
-	output("\n\n<i>“Viola!”</i> Galina beams, flicking away the cloth to reveal a solid, slightly bent pillar of gossamer green stone. It’s faintly soft-looking, almost fuzzy like shag carpet on the outer layer, but seems solid enough to hold its decidedly phallic shape. Indeed, one end of the viridian obelisk has been smoothed down to a rounded half-sphered, perfectly smooth and polished to a glassy shine the stone otherwise lacks.");
+	output("\n\n<i>“Voilà!”</i> Galina beams, flicking away the cloth to reveal a solid, slightly bent pillar of gossamer green stone. It’s faintly soft-looking, almost fuzzy like shag carpet on the outer layer, but seems solid enough to hold its decidedly phallic shape. Indeed, one end of the viridian obelisk has been smoothed down to a rounded half-sphered, perfectly smooth and polished to a glassy shine the stone otherwise lacks.");
 	
 	output("\n\nMarina giggles. Anno just stares, her tail falling flaccid behind her.");
 	
